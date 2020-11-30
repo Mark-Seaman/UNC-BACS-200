@@ -67,25 +67,25 @@
 <ul>
 <li>Example Rule Set</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
-    <span class="kw">font-family:</span> <span class="dt">serif</span><span class="kw">;</span>
-    <span class="kw">font-size:</span> <span class="dt">120%</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1 {
+    <span class="kw">font-family</span>: <span class="dv">serif</span>;
+    <span class="kw">font-size</span>: <span class="dv">120%</span>;
+}</code></pre></div>
 <h3 id="css-rule-set-1">CSS Rule Set</h3>
 <ul>
 <li>CSS syntax</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">selector <span class="kw">{</span>
-    <span class="kw">property:</span> value<span class="kw">;</span>   <span class="co">/* one rule */</span>
-    <span class="kw">property:</span> value<span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">selector {
+    property: value;   <span class="co">/* one rule */</span>
+    property: value;
+}</code></pre></div>
 <h3 id="hooking-up-css">Hooking up CSS</h3>
 <ul>
 <li>Link the Stylesheet to each HTML page</li>
 </ul>
-<pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
+<div class="sourceCode"><pre class="sourceCode html"><code class="sourceCode html"><span class="kw">&lt;head&gt;</span>
     <span class="kw">&lt;link</span><span class="ot"> rel=</span><span class="st">&quot;stylesheet&quot;</span><span class="ot"> href=</span><span class="st">&quot;styles.css&quot;</span><span class="kw">&gt;</span>
-<span class="kw">&lt;/head&gt;</span></code></pre>
+<span class="kw">&lt;/head&gt;</span></code></pre></div>
 <h3 id="css-property-groups">CSS Property Groups</h3>
 <ul>
 <li>Text</li>
@@ -105,13 +105,13 @@
 <ul>
 <li>Inherited by all descendants</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">body <span class="kw">{</span>
-    <span class="kw">font-family:</span> Arial, Helvetica, <span class="dt">sans-serif</span><span class="kw">;</span>
-<span class="kw">}</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">body {
+    <span class="kw">font-family</span>: Arial, Helvetica, <span class="dv">sans-serif</span>;
+}
 
-p <span class="kw">{</span>
-    <span class="kw">font-family:</span> <span class="st">&quot;Times New Roman&quot;</span>, Times, <span class="dt">serif</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+p {
+    <span class="kw">font-family</span>: <span class="st">&quot;Times New Roman&quot;</span>, Times, <span class="dv">serif</span>;
+}</code></pre></div>
 <h3 id="size-units">Size Units</h3>
 <ul>
 <li>Units of size for values</li>
@@ -124,53 +124,53 @@ p <span class="kw">{</span>
 <ul>
 <li>Multiple units</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">p <span class="kw">{</span>
-    <span class="kw">font-size:</span> <span class="dt">20px</span><span class="kw">;</span>  <span class="co">/* in pixels */</span>
-    <span class="kw">font-size:</span> <span class="dt">12pt</span><span class="kw">;</span>  <span class="co">/* in points */</span>
-    <span class="kw">font-size:</span> <span class="dt">150%</span><span class="kw">;</span>  <span class="co">/* parent element */</span>
-    <span class="kw">font-size:</span> <span class="dt">1.5em</span><span class="kw">;</span>  <span class="co">/* M is line height */</span>
-<span class="kw">}</span></code></pre>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">p {
+    <span class="kw">font-size</span>: <span class="dv">20px</span>;  <span class="co">/* in pixels */</span>
+    <span class="kw">font-size</span>: <span class="dv">12pt</span>;  <span class="co">/* in points */</span>
+    <span class="kw">font-size</span>: <span class="dv">150%</span>;  <span class="co">/* parent element */</span>
+    <span class="kw">font-size</span>: <span class="dv">1.5em</span>;  <span class="co">/* M is line height */</span>
+}</code></pre></div>
 <h3 id="font-weight">font-weight</h3>
 <ul>
 <li>Special font treatment</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">p <span class="kw">{</span>
-    <span class="kw">font-weight:</span> <span class="dt">400</span><span class="kw">;</span>  <span class="co">/* normal */</span>
-    <span class="kw">font-weight:</span> <span class="dt">normal</span><span class="kw">;</span>  <span class="co">/* 400 */</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">p {
+    <span class="kw">font-weight</span>: <span class="dv">400</span>;  <span class="co">/* normal */</span>
+    <span class="kw">font-weight</span>: <span class="dv">normal</span>;  <span class="co">/* 400 */</span>
 
-    <span class="kw">font-weight:</span> <span class="dt">700</span><span class="kw">;</span>  <span class="co">/* bold */</span>
-    <span class="kw">font-weight:</span> <span class="dt">bold</span><span class="kw">;</span>  <span class="co">/* 700 */</span>
+    <span class="kw">font-weight</span>: <span class="dv">700</span>;  <span class="co">/* bold */</span>
+    <span class="kw">font-weight</span>: <span class="dv">bold</span>;  <span class="co">/* 700 */</span>
 
-    <span class="kw">font-weight:</span> <span class="dt">lighter</span><span class="kw">;</span>  <span class="co">/* parent element */</span>
-<span class="kw">}</span></code></pre>
+    <span class="kw">font-weight</span>: <span class="dv">lighter</span>;  <span class="co">/* parent element */</span>
+}</code></pre></div>
 <h3 id="text-align">text-align</h3>
 <ul>
 <li>Where does the space go?</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">p <span class="kw">{</span>
-    <span class="kw">text-align:</span> <span class="dt">left</span><span class="kw">;</span>
-    <span class="kw">text-align:</span> <span class="dt">center</span><span class="kw">;</span>
-    <span class="kw">text-align:</span> <span class="dt">right</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">p {
+    <span class="kw">text-align</span>: <span class="dv">left</span>;
+    <span class="kw">text-align</span>: <span class="dv">center</span>;
+    <span class="kw">text-align</span>: <span class="dv">right</span>;
+}</code></pre></div>
 <h3 id="text-shadow">text-shadow</h3>
 <ul>
 <li>Give a 3D look</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
-    <span class="kw">text-shadow:</span> <span class="dt">2px</span> <span class="dt">2px</span><span class="kw">;</span>
-<span class="kw">}</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1 {
+    <span class="kw">text-shadow</span>: <span class="dv">2px</span> <span class="dv">2px</span>;
+}
 
-h2 <span class="kw">{</span>
-    <span class="kw">text-shadow:</span> <span class="dt">-2px</span> <span class="dt">-2px</span> <span class="dt">4px</span> <span class="dt">yellow</span><span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+h2 {
+    <span class="kw">text-shadow</span>: <span class="dv">-2px</span> <span class="dv">-2px</span> <span class="dv">4px</span> <span class="dv">yellow</span>;
+}</code></pre></div>
 <h3 id="font">font</h3>
 <ul>
 <li>Shorthand font property</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">p <span class="kw">{</span>
-    <span class="kw">font:</span> <span class="dt">italic</span> <span class="dt">bold</span> <span class="dt">16px</span> Arial, <span class="dt">sans-serif</span><span class="kw">;</span>
-    <span class="kw">font:</span> <span class="dt">120%</span> Times<span class="kw">;</span>
-<span class="kw">}</span></code></pre>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">p {
+    <span class="kw">font</span>: <span class="dv">italic</span> <span class="dv">bold</span> <span class="dv">16px</span> Arial, <span class="dv">sans-serif</span>;
+    <span class="kw">font</span>: <span class="dv">120%</span> Times;
+}</code></pre></div>
 <h3 id="color-properties">Color Properties</h3>
 <ul>
 <li>color</li>
@@ -182,13 +182,13 @@ h2 <span class="kw">{</span>
 <li>By RGB</li>
 <li>By Hexidecimal</li>
 </ul>
-<pre class="sourceCode css"><code class="sourceCode css">h1 <span class="kw">{</span>
-    <span class="kw">color:</span> <span class="dt">rgb(20%</span>, <span class="dt">20%</span>, <span class="dt">20%)</span><span class="kw">;</span>  <span class="co">/* Red Green Blue */</span>
+<div class="sourceCode"><pre class="sourceCode css"><code class="sourceCode css">h1 {
+    <span class="kw">color</span>: <span class="fu">rgb</span>(<span class="dv">20%</span>, <span class="dv">20%</span>, <span class="dv">20%</span>);  <span class="co">/* Red Green Blue */</span>
     
-    <span class="kw">color:</span> <span class="dt">silver</span><span class="kw">;</span>              <span class="co">/* Named color */</span>
+    <span class="kw">color</span>: <span class="dv">silver</span>;              <span class="co">/* Named color */</span>
     
-    <span class="kw">color:</span> <span class="dt">#0a0a0a</span><span class="kw">;</span>             <span class="co">/* Hex - Red Green Blue */</span>
-<span class="kw">}</span></code></pre>
+    <span class="kw">color</span>: <span class="dv">#0a0a0a</span>;             <span class="co">/* Hex - Red Green Blue */</span>
+}</code></pre></div>
 <h3 id="hexidecimal-values">Hexidecimal Values</h3>
 <pre><code>#01ffa5   -- Hex value
 
