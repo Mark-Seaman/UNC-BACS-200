@@ -1,4 +1,36 @@
-<section>
+<!doctype html>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+        <title>UNC Course Slides</title>
+
+        <link rel="stylesheet" href="http://shrinking-world.com/static/revealjs/dist/reset.css">
+        <link rel="stylesheet" href="http://shrinking-world.com/static/revealjs/dist/reveal.css">
+        <link rel="stylesheet" href="http://shrinking-world.com/static/revealjs/dist/theme/beige.css" id="theme">
+
+        <!-- Theme used for syntax highlighted code -->
+        <link rel="stylesheet" href="http://shrinking-world.com/static/revealjs/plugin/highlight/monokai.css" id="highlight-theme">
+        <link rel="stylesheet" href="slides.css">
+    </head>
+
+    <body>
+
+        <div class="reveal">
+            <div class="slides">
+
+                <section class="section"
+                         data-background-image="../images/autumn-leaves.jpg">
+                    <h1>bacs200 - Lesson 01</h1>
+                    <p><img class="logo" src="../images/Bear.png" alt="../images/Bear.png"></p>
+                    <p class="title">Mark Seaman</p>
+                    <p class="title">University of Northern Colorado</p>
+                </section>
+
+                
+                    <section>
     <section class="section" data-background-image="../images/peaking.800.jpg">
         <h2>LEARN</h2>
     </section>
@@ -319,3 +351,27 @@ Web servers responds with the requested web pages
 
 
 </section>
+                
+
+            </div>
+        </div>
+
+        <script src="http://shrinking-world.com/static/revealjs/dist/reveal.js"></script>
+        <script src="http://shrinking-world.com/static/revealjs/plugin/notes/notes.js"></script>
+        <script src="http://shrinking-world.com/static/revealjs/plugin/markdown/markdown.js"></script>
+        <script src="http://shrinking-world.com/static/revealjs/plugin/highlight/highlight.js"></script>
+        <script>
+            // More info about initialization & config:
+            // - https://revealjs.com/initialization/
+            // - https://revealjs.com/config/
+            Reveal.initialize({
+                hash: true,
+
+                // Learn about plugins: https://revealjs.com/plugins/
+                plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+            });
+
+        </script>
+    </body>
+
+</html>
