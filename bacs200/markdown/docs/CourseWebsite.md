@@ -6,7 +6,7 @@ This website is a stand-alone version of the complete course.  It is intended to
 used in anyway that you see fit.  There is valuable information here that will help
 you on  your web development projects.
 
-[Content Provided](../lesson/index.html)
+[Content Provided](../index.html)
 
 * Lesson notes for every lesson
 * Lesson slide shows
@@ -40,7 +40,7 @@ you on  your web development projects.
 
 ### Lessons
 
-Access the lessons through the [course index file](../lesson/index.html)
+Access the lessons through the [course index file](../index.html)
 
 Each lesson can be enjoyed in different forms
 
