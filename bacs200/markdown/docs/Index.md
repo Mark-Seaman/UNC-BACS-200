@@ -1,7 +1,5 @@
 # BACS 200 - Tutorial Documents
 
-![](img/peaking.800.jpg)
-
 It takes specific skills to develop web pages using HTML and CSS.
 
 Here are the skills that you need for success.
@@ -25,7 +23,10 @@ Here are the skills that you need for success.
 
 ## Resources
 
+* [Course Website](CourseWebsite.html)
 * [Learning Resources](LearningResources.html)
 * [Tips and Tricks](TipsTricks.html)
 * [Other Courses](https://shrinking-world.com)
+
+![](img/peaking.800.jpg)
 
