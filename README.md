@@ -1,4 +1,4 @@
-# UNC BACS 200
+# Building Web Pages (with HTML, CSS, & Bootstrap)
 
 University of Northern Colorado
 
@@ -8,7 +8,7 @@ Business Administration Computer Science
 
 BACS 200 - Web design and development for small business
 
-![](bacs200/images/peaking.200.jpg)
+![](bacs200/images/peaking.800.jpg)
 
 ---
 
@@ -80,11 +80,8 @@ To refresh your copy of the code just "Pull" code at any time.
 
 ## Use the Website
 
-Once you have cloned the repo you have a copy of the full website on your computer.  
-No server is required to host the files and view the pages on your own computer.
+Once you have cloned the repo you have a copy of the full website on your computer.  No server is required to host the files and view the pages on your own computer.
 
 Start browsing the website by finding the files on your local computer and double-clicking
 the "bacs200/index.html" file.
-
-
 
