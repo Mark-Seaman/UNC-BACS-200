@@ -46,7 +46,7 @@ BACS 200 - Web design and development for small business
 * Building a professional web presence
 
 
-This class teaching techniques by having students build projects each week.
+This class teaches techniques by having students build projects each week.
 Concepts and techniques taught in the class help the students learn what they
 need to successfully complete each project.
 
