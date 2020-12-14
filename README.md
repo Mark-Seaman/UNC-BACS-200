@@ -66,7 +66,7 @@ pages.  Detailed instructions and requirements are given for students to follow.
 42 lessons are available as notes and slides on this course website.  Each lesson comes 
 with demo code that can be viewed and modified by the students.
 
-42 video lecture will be available by January of 2020.  These videos will be linked to
+42 video lecture will be available by January of 2021.  These videos will be linked to
 this repo for easy access.  The videos will be served off a video streaming service at
 Shrinking World.
 
